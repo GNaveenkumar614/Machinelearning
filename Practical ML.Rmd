@@ -64,7 +64,7 @@ testupdated <- testing[, sapply(testing, is.numeric)]
 dim(trainupdated)
 dim(testupdated)
 ```
-
+#cross validation
 we can split the cleaned training set into  training data set (70%) and a validation data set (30%). 
  
 ```{r}
